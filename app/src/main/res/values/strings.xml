@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Tell me the odds</string>
+    <string name="tab_text_1">dice</string>
+    <string name="tab_text_2">game</string>
+    <string name="tab_text_3">history</string>
+    <string name="help">//?</string>
+    <string name="score_combat">combat\n%1$d</string>
+    <string name="score_objectives">objectives\n%1$d</string>
+    <string name="rounds">r%1$d</string>
+    <string name="game_time">base game time [minutes]</string>
+    <string name="initiative">player order</string>
+    <string name="initiative_first_player">1st player</string>
+    <string name="initiative_second_player">2nd player</string>
+    <string name="player_1">player 1</string>
+    <string name="player_2">player 2</string>
+    <string name="dialog_time">timer setup</string>
+    <string name="dialog_1">randomize game time</string>
+    <string name="ok">ok</string>
+    <string name="cancel">cancel</string>
+    <string name="round_button_text">rnd %1$d   %2$d:%3$d</string>
+    <string name="extendable_text">objectives: %1$d combat: %2$d</string>
+    <string name="dice_text">- dice rolls -</string>
+    <string name="stats">summary</string>
+    <string name="hit">hit</string>
+    <string name="crit">crit</string>
+    <string name="blank">blank</string>
+    <string name="eye">focus</string>
+    <string name="evade">evade</string>
+    <string name="save">save</string>
+    <string name="clear">c</string>
+    <string name="score_title">- score breakdown -</string>
+    <string name="game_stats_title">- game statistics -</string>
+    <string name="initiative_count">went first in %1$s</string>
+    <string name="always_first">always went first</string>
+    <string name="never_first">never went first</string>
+    <string name="empty_history"> history is empty.\na new record will be added each time you move to the next round on the game screen</string>
+    <string name="initiative_count_unassigned">%1$s with unknown player order</string>
+    <plurals name="round_plurals">
+        <item quantity="one">%d round</item>
+        <item quantity="other">%d rounds</item>
+    </plurals>
+    <string name="dice_roll_stats">- dice statistics -</string>
+    <string name="rolled_total_dice">rolled %1$s in total</string>
+    <string name="rolled_total_dice_unassigned">%1$s unaccounted for</string>
+    <string name="rolled_results">%1$s, expected %2$s</string>
+    <plurals name="red_dice_plurals">
+        <item quantity="one">%d red die</item>
+        <item quantity="other">%d red dice</item>
+    </plurals>
+    <plurals name="green_dice_plurals">
+        <item quantity="one">%d green die</item>
+        <item quantity="other">%d green dice</item>
+    </plurals>
+    <plurals name="hits">
+        <item quantity="one">%d hit</item>
+        <item quantity="other">%d hits</item>
+    </plurals>
+    <plurals name="crits">
+        <item quantity="one">%d critical hit</item>
+        <item quantity="other">%d critical hits</item>
+    </plurals>
+    <plurals name="focus">
+        <item quantity="one">%d eyeball</item>
+        <item quantity="other">%d eyeballs</item>
+    </plurals>
+    <plurals name="blank">
+        <item quantity="one">%d blank</item>
+        <item quantity="other">%d blanks</item>
+    </plurals>
+    <plurals name="evade">
+        <item quantity="one">%d evade</item>
+        <item quantity="other">%d evades</item>
+    </plurals>
+    <string name="dialog_hint">with the box ticked the time will be randomized using AMG tournament
+        rules, adding or subtracting up to three minutes from the base time.\n\n
+        the timer will start flashing red five minutes before the base time is up,
+        without taking the randomization into account.
+        When the time runs out timer will turn solid red and stop.</string>
+</resources>
